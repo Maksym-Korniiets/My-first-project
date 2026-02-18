@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background: #313131;
+}
+
+#log{
+    margin-top: 30vh;
+    margin-left: 10vb;
+}
+.form{
+    background: #000000;
+    margin: 8px 40px;
+    padding: 10px 15px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid transparent;
+    outline: none;
+    color: rgb(0, 255, 98);
+    border-radius: 5px;
+}
+.radio{
+    margin-left: 40px;
+    margin-right: 6px;
+}
+#btn{
+    margin-left: 40px;
+    margin-top: 0px;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: blue;
+    animation: move 1s;
+}
+
+/*@keyframes move{
+    from або 0%(
+    )
+    50%
+    to або 100%(
+    )
+}*/
+
+#btn:hover {
+    border: 2px solid rgb(255, 246, 246);
+    background: rgb(214, 97, 97);
+    color: rgb(255, 246, 246);
+    padding: 12px 24px;
+    margin-top: 15px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+#error{
+    display: flex;
+    color: red;
+    margin-left: 40px;
+    margin-top: 20px;
+}
