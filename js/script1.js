@@ -252,7 +252,7 @@ switch(a){
 // }
 
 // min(10,5);
-
+/*
 function pow(x,n){
    if(n = 1 || n > 1 && (n % 2 == 0 || n % 2 == 1)){
     console.log(x,n);
@@ -262,3 +262,28 @@ function pow(x,n){
     return (x , n);
 }
 console.log(pow(prompt('num1','0'), prompt('num2','1')));
+*/
+
+
+function pow(x, n) {
+  let result = 1;
+
+  for (let i = 0; i < n; i++ ) {
+    result *= x;
+  }
+
+  return result;
+}
+
+let x = prompt("x?", '');
+let n = prompt("n?", '');
+
+if (n <= 0) {
+  alert(`Power ${n} is not supported,
+     please enter an integer number greater than zero`);
+} else{
+  alert( pow(x, n) );
+}
+
+
+
